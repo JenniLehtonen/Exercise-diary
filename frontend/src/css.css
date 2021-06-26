@@ -111,7 +111,7 @@ table{
 
 /*Etusivun kuva*/
 .responsive {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
   }
 
@@ -119,5 +119,27 @@ table{
 .alert-success{
     width: 60%;
     margin: auto;
+}
+
+/*Footer*/
+.footer{
+    height: 6rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: #E0EAEC;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+.footer p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.footer a{
+    color: black;
+    text-decoration: underline;
 }
   
