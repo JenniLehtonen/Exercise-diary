@@ -1,0 +1,123 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+button.btn.btn-primary{
+    background-color:#3498DB;
+}
+button.btn.btn-primary:hover{
+    background-color:#2d80b8;
+}
+
+/*Navigointi*/
+.nav-item{ /*menu tekstit samalle tasolle*/
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: black;
+    display: block;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    font-weight: 550;
+}
+.nav-item:hover{
+    color:white;
+    transition:0.3s;
+}
+.nav{
+    margin-bottom: 1.5rem !important;
+}
+.justify-content-center {
+    background-color: #E0EAEC;
+    padding-bottom: 1rem;
+}
+
+/*Modaalinen dialogi*/
+input{
+    margin-bottom: 0.5rem !important;
+}
+#logIn{
+    margin-bottom: 1.5rem;
+}
+#register{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.modal-body{
+    text-align: center;
+}
+.modal-header{
+    background-color: #F2F2F2;
+}
+.modal-title{
+    text-align: center;
+}
+.modal-footer{
+    background-color: #F2F2F2;
+}
+.form-control{
+    width:70% !important;
+    margin: auto;
+    text-align: center;
+}
+#registerCheckbox {
+    background-color: transparent;
+    color: black;
+    border: none;
+ }
+ #registerCheckbox span {
+    margin-left: 1rem;
+ }
+.focus.btn.active.btn-primary, .focus.btn.btn-primary{
+     box-shadow:none;
+ }
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+/*Taulukot*/
+table{
+    width:85% !important;
+}
+#table-div{
+    display: flex;
+    justify-content: center;
+}
+.removeButton{
+    background-color: white;
+    border-top: 2px solid white !important;
+    border-right: 2px solid white !important;
+    border-bottom: 2px solid white !important;
+}
+#editButton{
+    margin-left: 0.4rem;
+}
+
+/*Treenien muokkaus*/
+.editWorkouts{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#editWorkoutButton{
+    position: relative;
+    left: 50%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    transform: translate(-50%, -50%);
+}
+#username{
+   text-align:center;
+}
+
+/*Etusivun kuva*/
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
+
+/*Onnistumis-ilmoitus*/
+.alert-success{
+    width: 60%;
+    margin: auto;
+}
+  
