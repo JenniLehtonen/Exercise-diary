@@ -7,7 +7,7 @@ This application is for tracking how much you do sports. The users can sign in t
 |2. [Pictures of the user interface](#Pictures-of-the-user-interface)|
 
 ## Technical solutions of the application
-Used technologies: **HTML, CSS, JavaScript, ReactJS, Node.js, MongoDB**.
+Used technologies: **HTML, CSS, JavaScript, ReactJS, Node.js, Express.js, MongoDB**.
 
 ### Styling
 I have used **React Bootstrap** in all the elements of the application. Picture of the main page is from https://www.freepik.com/home. The home icon in the navigation bar is from https://fontawesome.com/.
