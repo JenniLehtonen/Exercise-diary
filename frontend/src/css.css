@@ -92,6 +92,9 @@ table{
 #editButton{
     margin-left: 0.4rem;
 }
+.table-bordered {
+    border: none !important;
+}
 
 /*Treenien muokkaus*/
 .editWorkouts{
